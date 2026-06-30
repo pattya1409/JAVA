@@ -9,3 +9,6 @@ public class variable {
 		System.out.println(name);
 	}
 }
+
+//output 
+//prathamesh
