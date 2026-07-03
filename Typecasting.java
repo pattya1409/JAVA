@@ -1,7 +1,6 @@
 package datatypes;
 
 public class Typecasting {
-
 	public static void main(String[] args) {
 		int a = 50;
 		double b;
@@ -15,5 +14,12 @@ public class Typecasting {
 		System.out.println(c);
 		System.out.println(d);
 	}
-
 }
+
+//output
+//50
+//50.0
+
+//123.456
+//123
+
