@@ -9,3 +9,6 @@ public class pgm1 {
 		System.out.println("Hello prathamesh");
 	}	
 }
+
+//output
+//Hello prathamesh
