@@ -19,8 +19,12 @@ public class Student {
 		System.out.println("age : " + s1.age);
 		System.out.println("roll: " + s1.roll);
 		
-		s1.sleep();
-		
+		s1.sleep();	
 	}
-
 }
+
+//output
+//Name: prathamesh
+//age : 24
+//roll: 21
+//studnts are sleeping
