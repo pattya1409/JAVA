@@ -1,20 +1,14 @@
 package conditionStatement;
 
 import java.util.Scanner;
-
 public class Switch {
-
 	public static void main(String[] args) {
-		
 		Scanner sc = new Scanner(System.in);
-		
 		System.out.println("Enter Lightcolor : ");
 		char lightColor = sc.next().charAt(0);
-		
-		
 	    performAction(lightColor);
 	}
-	
+
 	static void performAction(char lightColor) {
 		switch(lightColor) {
 		case 'R' : System.out.println("stop");
@@ -26,5 +20,9 @@ public class Switch {
 		default : System.out.println("run");
 		}
 	}
-
 }
+
+// output 
+//Enter Lightcolor : 
+//R
+//stop
